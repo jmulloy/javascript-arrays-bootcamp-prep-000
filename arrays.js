@@ -31,7 +31,7 @@ function destructivelyAddElementToBeginningOfArray(array, n){
   return array
 }
 function addElementToTheEndOfArray(array, n) {
-  array.push(n)
+  array.push(n, ...array)
   return array
 }
 function destructivelyAddElementToEndOfArray(array, n) {
