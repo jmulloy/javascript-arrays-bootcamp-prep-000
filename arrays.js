@@ -30,3 +30,4 @@ function destructivelyAddElementToBeginningOfArray(array, n){
   array.unshift(n)
   return array
 }
+function addElementToTheEndOfArray(array, n)
