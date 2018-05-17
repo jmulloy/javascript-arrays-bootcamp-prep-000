@@ -34,4 +34,4 @@ function addElementToTheEndOfArray(array, n) {
   array.push(n)
   return array
 }
-function
+function destructivelyAddElementToEndOfArray
