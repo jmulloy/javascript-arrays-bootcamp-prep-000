@@ -30,8 +30,9 @@ function destructivelyAddElementToBeginningOfArray(array, n){
   array.unshift(n)
   return array
 }
-function addElementToTheEndOfArray(array, n) {
-  return [n, ...array]
+function addElementToEndOfArray(array, element) {
+  [...array, element] 
+  return array 
 }
 function destructivelyAddElementToEndOfArray(array, n) {
   var newArray = [n, ...array]
